@@ -19,9 +19,9 @@
 <body>
   <nav>
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img id= "slack-logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <<!--<ul>
         <li>
           <a href="#">Product</a>
         </li>
@@ -34,18 +34,19 @@
         <li>
           <a href="#">Pricing</a>
         </li>
-      </ul>
+      </ul> -->
     </div>
 
-    <div>
-      <button>
+    <div id="botones-body">
+      <button id="button-search">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button id="button-menu">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
+    </div>
+    <div>
       <ul hidden>
         <li>
           <a href="#">Sign in</a>
@@ -61,29 +62,29 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span id="slack">Slack is free to try</span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div id="botones-header">
+        <button id="sing-up">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
+        <button id = "boton-google">
+          <img id="logo-google" src="./images/logo-google.png" alt="Google logo" />
+          <span id="span-google">Sign up with Google</span>
         </button>
       </div>
 
     </div>
 
-    <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+    <div id="img-header">
+      <img id= "imagenheader" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
     <section>
-      <p>Trusted by companies all over the world</p>
+      <p id="p-main">Trusted by companies all over the world</p>
 
-      <div>
+      <div id="img-companys">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,9 +95,9 @@
 
     </section>
 
-    <section>
-      <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
+    <section id="ventajas-slack">
+      <div >
+        <img id="img-ventajas" src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
       <div>
@@ -110,6 +111,11 @@
         <a href="#">
           <span>Learn more about channels</span>
         </a>
+      
+        <div>
+          <img id="img-ventajas-2" src="./images/flexibility-mobile.png" alt="flexibility" />
+        </div>
+
       </div>
     </section>
 
@@ -128,14 +134,12 @@
       </div>
 
       <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
+        <img id= "img-ventajas-3" src="./images/speed-mobile.png" alt="speed" />
       </div>
     </section>
 
     <section>
-      <div>
-        <img src="./images/speed-mobile.png" alt="speed" />
-      </div>
+     
 
       <div>
         <h2>Move faster with your tools in one place</h2>
@@ -151,18 +155,18 @@
     </section>
 
 
-    <section>
+    <section id="seccion-datos">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div id="botones-porcentaje">
+        <button id="boton1-porcentaje">Meet Slack for enterprise</button>
+        <button id="boton2-porcentaje">Talk to sales</button>
       </div>
 
-      <ul>
+      <ul id="lista-sin-puntos">
         <li>
-          <p><span>85%</span></p>
+          <p><span id="porcentaje">85%</span></p>
           <p>
             of users say Slack has improved communication
             <sup>*</sup>
@@ -170,7 +174,7 @@
         </li>
 
         <li>
-          <p><span>86%</span></p>
+          <p><span id="porcentaje">86%</span></p>
           <p>
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -178,7 +182,7 @@
         </li>
 
         <li>
-          <p><span>88%</span></p>
+          <p><span id="porcentaje">88%</span></p>
           <p>
             feel more connected to their teams*
             <sup>*</sup>
@@ -187,20 +191,20 @@
       </ul>
     </section>
 
-    <section>
+    <section id="welcome-digital">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button id="wdigi-button">Try for free</button>
+      <button id="wdigi-button2">Talk to sales</button>
     </section>
 
   </main>
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+    <div id="listas-footer">
       <ul>
-        <li>WHY SLACK?</li>
+        <li id="mayus-lista">WHY SLACK?</li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
         <li>Engagement</li>
@@ -209,7 +213,7 @@
       </ul>
 
       <ul>
-        <li>PRODUCT</li>
+        <li id="mayus-lista">PRODUCT</li>
         <li>Features</li>
         <li>Integrations</li>
         <li>Enterprise</li>
@@ -218,12 +222,14 @@
       </ul>
 
       <ul>
+        <li id="mayus-lista">PRODUCT</li>
         <li>PRICING</li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
       <ul>
+        <li id="mayus-lista">PRODUCT</li>
         <li>COMPANY</li>
         <li>About Us</li>
         <li>Leadership</li>
@@ -235,7 +241,7 @@
     </div>
 
 
-    <ul>
+    <ul id="terms-list">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
@@ -247,7 +253,7 @@
 
     <hr>
 
-    <ul>
+    <ul id="rrss">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
@@ -263,7 +269,7 @@
     </ul>
 
     <div>
-      <small>
+      <small id="letrapequeña">
         &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by
         their respective owners.
       </small>

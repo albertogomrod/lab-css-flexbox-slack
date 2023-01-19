@@ -8,3 +8,240 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: stretch;
+}
+
+#slack-logo {
+  display: flex;
+  width: 25%;
+}
+#botones-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  background-color: ;
+}
+
+header {
+  background-color: #540b51;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+header p {
+  color: white;
+}
+
+#slack{
+    color:#ECB12F
+}
+
+#botones-header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#logo-google {
+    width: 10%;
+}
+#sing-up{
+    color: #540b51;
+}
+#boton-google{
+    height: 5%;
+    background-color: #4285F4;
+}
+
+#span-google{
+    color: white;
+}
+
+#img-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#imagenheader{
+    width: 125%;
+}
+
+main{
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#p-main{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#img-companys{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+#img-companys img{
+   width: 30%
+}
+
+
+#ventajas-slack{
+    display: flex;
+    flex-direction: column;
+}
+
+#img-ventajas{
+    margin-top: 15%;
+    width: 100%;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+#img-ventajas-2{
+    margin-top: 7%;
+    width:100%;
+}
+
+#img-ventajas-3{
+    margin-top: 7%;
+    width: 100%;
+}
+
+#seccion-datos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion-datos p{
+    text-align: center;
+}
+
+#welcome-digital{
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+footer{
+    background-color: white;
+}
+
+h3{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#lista-sin-puntos li{
+    list-style:none
+}
+
+#botones-porcentaje{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+
+    
+}
+
+#porcentaje{
+    font-size: 3em;
+    color: #540b51;
+    font-weight: bolder;
+}
+
+#boton1-porcentaje{
+    background-color: #540b51;
+    color: white;
+    font-size: 1.25em;
+}
+
+#boton2-porcentaje{
+    background-color:white;
+    color: #540b51;
+    font-size: 1.25em;
+}
+
+#listas-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+#mayus-lista{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+
+footer li {
+    color:#888588;
+    list-style:none
+}
+
+#wdigi-button{
+    background-color:white;
+    color: #540b51;
+    font-size: 1.25em;
+}
+
+#wdigi-button2{
+    background-color: #540b51;
+    color: white;
+    font-size: 1.25em;
+}
+
+#terms-list{
+    list-style:none
+}
+
+#terms-list li{
+    color:black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#rrss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#rrss li{
+    color: black;
+}
+
+#letrapequeña{
+    color: rgb(94, 90, 90)
+}
